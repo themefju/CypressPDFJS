@@ -1,0 +1,15 @@
+{
+  "name": "cypresspdfjs",
+  "version": "1.0.0",
+  "scripts": {
+    "cy:open": "npx cypress open"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.16.0",
+    "cypress": "^12.10.0",
+    "dotenv": "^16.0.3",
+    "pdfjs-dist": "^3.5.141",
+    "typescript": "^5.0.4"
+  }
+}

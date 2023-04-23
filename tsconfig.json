@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"],
+    "moduleResolution": "nodenext",
+    "strict": true,
+    "strictNullChecks": false
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
