@@ -2,7 +2,7 @@
   "name": "cypresspdfjs",
   "version": "1.0.0",
   "scripts": {
-    "cy:open": "npx cypress open"
+    "cy:open": "npx cypress open --e2e"
   },
   "license": "ISC",
   "dependencies": {

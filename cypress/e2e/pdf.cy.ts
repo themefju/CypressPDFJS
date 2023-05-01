@@ -4,6 +4,7 @@ import { readPdf } from './utils/pdf';
 const file = Cypress.env('pathToPdf');
 
 it('read PDF', () => {
-  const pdfText = readPdf(file);
-  expect(pdfText).to.have.length.greaterThan(0);
+  readPdf(file).then((txt) => {
+    expect(txt).to.have.length.greaterThan(0);
+  });
 });
